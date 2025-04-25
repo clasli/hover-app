@@ -15,7 +15,7 @@ class MqttService {
       password: 'emqx_test',
     }
 
-    const url = 'ws://broker.emqx.io:8083/mqtt'
+    const url = 'wss://broker.emqx.io:8084/mqtt'
 
     this.client = mqtt.connect(url, options)
 
