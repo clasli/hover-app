@@ -20,6 +20,7 @@ const destinations: Destination[] = [
     new Destination("Location3", 37.437041393899676, -4.191635586788259),
     new Destination("Location4", 37.437041393899676, -4.191635586788259),
     new Destination("Location5", 37.437041393899676, -4.191635586788259),
+    new Destination("Location6", 37.437041393899676, -4.191635586788259),
 ];
 
 export default function DestinationSelect() {
